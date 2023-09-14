@@ -52,7 +52,7 @@ def  calcular_perímetro(self):
  return 2*pi*self.raio
 
 
-class(FormaGeometrica):
+classe Retangulo(FormaGeometrica):
 self.comprimento = comprimento 
 self.largura = largura 
 def calcular_area(self):
