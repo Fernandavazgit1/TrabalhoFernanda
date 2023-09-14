@@ -1,0 +1,61 @@
+﻿main ( )
+
+
+while true:
+print(“Forma Geometrica:”)
+print(“1.círculo” )
+print(“2.retângulo”)
+
+
+escolha= input(“escolha um número:” )
+
+
+if escolha == ‘1’
+raio= float(input(“digite o raio do círculo:”))
+circulo=circulo(raio)
+print(f” a area do circulo é:”{circulo.calcular_area})
+print(f"O perímetro do círculo é: {circulo.calcular_perimetro()}")
+
+
+elif escolha == '2':
+            comprimento = float(input("Digite o comprimento do retângulo: "))
+            largura = float(input("Digite a largura do retângulo: "))
+            retangulo = Retangulo(comprimento, largura)
+            print(f"A área do retângulo é: {retangulo.calcular_area()}")
+            print(f"O perímetro do retângulo é: {retangulo.calcular_perimetro()}")
+
+
+else:
+            print("Escolha inválida. Por favor, escolha novamente.")
+
+
+
+
+
+
+
+
+classe FormaGeometrica:
+def __init__
+(self, nome): self.nome = nome
+def calcular_area (self):
+def calcular_perímetro (self):
+
+
+classe Circulo(FormaGeometrica)
+ self.raio=raio 
+def calular_area(self):
+return pi * self. raio ** 2
+
+
+def  calcular_perímetro(self):
+ return 2*pi*self.raio
+
+
+class(FormaGeometrica):
+self.comprimento = comprimento 
+self.largura = largura 
+def calcular_area(self):
+ return self.comprimento * self.largura 
+def calcular_perimetro(self):
+ return 2 * (self.comprimento + self.largura)
